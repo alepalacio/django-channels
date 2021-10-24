@@ -16,9 +16,9 @@
 
  - `redis-server` -- Inicializar el broker.
 
-- `celery -A src beat -l INFO` -- Para inicializar el Beat, que ejecutará el task con el tiempo proporcionado.
+- `celery -A <nombre proyecto> beat -l INFO` -- Para inicializar el Beat, que ejecutará el task con el tiempo proporcionado.
 
-- `celery -A src worker -l INFO` -- Para inicializar el celery y poder ver los logs de manera dinámica.
+- `celery -A <nombre proyecto> worker -l INFO` -- Para inicializar el celery y poder ver los logs de manera dinámica.
 
 - `pip install channels` -- Instalar channels.
 
